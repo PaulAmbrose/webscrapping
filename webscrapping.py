@@ -36,13 +36,13 @@
 
 ##3
 #Downloading and passing to beautiful soup object
-#import requests, bs4
+import requests, bs4
 #res = requests.get('http://nostarch.com')
 #res.raise_for_status()
 #noStarchSoup = bs4.BeautifulSoup(res.text)
 #print(type(noStarchSoup))
 
 #Opening an HTML file and passing to a beautiful soup object
-#exampleFile = open('C:\Users\pablo\Google Drive\1_Paul\code\staging\web_scraping\webscrapping\example_html.html')
-#exampleSoup = bs4.BeautifulSoup(exampleFile)
-#print(type(exampleSoup))test
+exampleFile = open('C:\\Users\\pablo\\Google Drive\\1_Paul\\code\\staging\\web_scraping\\webscrapping\\example_html.html')
+exampleSoup = bs4.BeautifulSoup(exampleFile)
+print(type(exampleSoup))
