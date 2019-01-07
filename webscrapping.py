@@ -45,5 +45,4 @@
 #Opening an HTML file and passing to a beautiful soup object
 #exampleFile = open('C:\Users\pablo\Google Drive\1_Paul\code\staging\web_scraping\webscrapping\example_html.html')
 #exampleSoup = bs4.BeautifulSoup(exampleFile)
-#print(type(exampleSoup))
-
+#print(type(exampleSoup))test
