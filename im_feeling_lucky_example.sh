@@ -1,4 +1,7 @@
-#! python3
+#Linux
+
+#! /usr/bin/python3
+#python3 im_feeling_lucky_example.sh norwich city
 
 # lucky.py - Opens several Google search results.
 import requests, sys, webbrowser, bs4
