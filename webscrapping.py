@@ -46,3 +46,22 @@ import requests, bs4
 exampleFile = open('C:\\Users\\pablo\\Google Drive\\1_Paul\\code\\staging\\web_scraping\\webscrapping\\example_html.html')
 exampleSoup = bs4.BeautifulSoup(exampleFile)
 print(type(exampleSoup))
+
+#Using the Beautifulsoup Object
+#Table 11-2. Examples of CSS Selectors
+#Selector passed to the select() method
+
+# soup.select('div')
+# All elements named <div>
+# soup.select('#author')
+# The element with an id attribute of author
+# soup.select('.notice')
+# All elements that use a CSS class attribute named notice
+# soup.select('div span')
+# All elements named <span> that are within an element named <div>
+# soup.select('div > span')
+# All elements named <span> that are directly within an element named <div>, with no other element in between
+# soup.select('input[name]')
+# All elements named <input> that have a name attribute with any value
+# soup.select('input[type="button"]')
+# All elements named <input> that have an attribute named type with value button
